@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Marvel Movies</string>
     <string name="tittle_movie1">Movie 1</string>
-    <string name="text_toggleButton">ToggleButton</string>
+    <string name="text_toggleButton_off">Bad</string>
+    <string name="text_toggleButton_on">Good</string>
+    <string name="text_text_radioButton">Repetir</string>
+    <string name="text_text_radioButton2">No Repetir</string>
+    <string name="text_checkBox">Multiverso</string>
 </resources>

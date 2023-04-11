@@ -30,19 +30,18 @@
                 android:text="@string/app_name"
                 android:textAlignment="center"
                 android:textAllCaps="true"
-                android:textSize="25sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="@color/red"
-                android:padding="15dp"
+                android:padding="12dp"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
                 android:id="@+id/logoMarvel"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/logo"
-                tools:ignore="" />
+                android:layout_height="160dp"
+                android:src="@drawable/logo" />
 
             <HorizontalScrollView
                 android:id="@+id/scrollingChips"
@@ -123,41 +122,6 @@
 
             </HorizontalScrollView>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/title_movie_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="12dp"
-                    android:text="@string/tittle_movie1"
-                    android:textAlignment="center"
-                    android:textAllCaps="true"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/hero"
-                    android:padding="5dp"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="MissingConstraints" />
-
-                <ImageView
-                    android:id="@+id/img_movie_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/title_movie_1"
-                    android:src="@drawable/poster_movie1"/>
-                <ToggleButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/img_movie_1"
-                    android:layout_centerHorizontal="true"
-                    android:text="@string/text_toggleButton"/>
-
-            </RelativeLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -170,23 +134,25 @@
                     android:text="@string/tittle_movie1"
                     android:textAlignment="center"
                     android:textAllCaps="true"
-                    android:textSize="18dp"
+                    android:textSize="24dp"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:background="@color/hero"
-                    android:padding="5dp"
+                    android:padding="4dp"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="MissingConstraints" />
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/poster_movie1"/>
+                    android:layout_height="360dp"
+                    android:src="@drawable/poster_movie1"
+                    android:background="@color/hero"/>
                 <ToggleButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="@string/text_toggleButton"/>
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on"/>
 
                 <RatingBar
                     android:layout_width="wrap_content"
@@ -194,6 +160,32 @@
                     android:numStars="5"
                     android:rating="0"
                     android:stepSize="1"
+                    android:layout_gravity="center"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2"/>
+
+                </RadioGroup>
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_checkBox"
                     android:layout_gravity="center"/>
 
             </LinearLayout>
