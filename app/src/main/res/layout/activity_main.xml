@@ -64,53 +64,53 @@
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hero1"
+                            android:text="@string/hero1"
                             app:chipBackgroundColor="@color/hero"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hero2"
+                            android:text="@string/hero2"
                             app:chipBackgroundColor="@color/hero"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hero3"
+                            android:text="@string/hero3"
                             app:chipBackgroundColor="@color/hero"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hero4"
+                            android:text="@string/hero4"
                             app:chipBackgroundColor="@color/hero"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hero5"
+                            android:text="@string/hero5"
                             app:chipBackgroundColor="@color/hero"/>
 
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Villain1"
+                            android:text="@string/villain1"
                             app:chipBackgroundColor="@color/villain"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Villain2"
+                            android:text="@string/villain2"
                             app:chipBackgroundColor="@color/villain"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Villain3"
+                            android:text="@string/villain3"
                             app:chipBackgroundColor="@color/villain"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Villain4"
+                            android:text="@string/villain4"
                             app:chipBackgroundColor="@color/villain"/>
                         <com.google.android.material.chip.Chip
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Villain5"
+                            android:text="@string/villain5"
                             app:chipBackgroundColor="@color/villain"/>
 
 
@@ -127,40 +127,56 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <!-- Movie Block 1-->
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
                     android:text="@string/tittle_movie1"
                     android:textAlignment="center"
                     android:textAllCaps="true"
+                    android:textColor="@color/black"
                     android:textSize="24dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/hero"
-                    android:padding="4dp"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="MissingConstraints" />
 
                 <ImageView
+                    android:id="@+id/image_view1"
                     android:layout_width="wrap_content"
                     android:layout_height="360dp"
-                    android:src="@drawable/poster_movie1"
-                    android:background="@color/hero"/>
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
                 <ToggleButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textOff="@string/text_toggleButton_off"
-                    android:textOn="@string/text_toggleButton_on"/>
+                    android:textOn="@string/text_toggleButton_on" />
 
                 <RatingBar
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:numStars="5"
                     android:rating="0"
-                    android:stepSize="1"
-                    android:layout_gravity="center"/>
+                    android:stepSize="1" />
 
                 <RadioGroup
                     android:layout_width="match_parent"
@@ -171,28 +187,680 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/text_text_radioButton"/>
+                        android:text="@string/text_text_radioButton" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/text_text_radioButton2"/>
+                        android:text="@string/text_text_radioButton2" />
 
                 </RadioGroup>
 
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie2"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie2"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/text_checkBox"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:text="@string/text_checkBox" />
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie3"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie3"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 4-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie4"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie4"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 5-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie5"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie5"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 6-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie6"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie6"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 7-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie7"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie7"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 8-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie8"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie8"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 9-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie9"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie9"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
+
+                <!-- Movie Block 10-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@color/hero"
+                    android:padding="4dp"
+                    android:text="@string/tittle_movie10"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/image_view10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center"
+                    android:background="@color/background_poster" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="@string/description_movie10"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="normal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textOff="@string/text_toggleButton_off"
+                    android:textOn="@string/text_toggleButton_on" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:stepSize="1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_text_radioButton2" />
+
+                </RadioGroup>
+
+                <!-- End Movie Block -->
 
             </LinearLayout>
 
-
-
-
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/text_checkBox" />
 
 
         </LinearLayout>

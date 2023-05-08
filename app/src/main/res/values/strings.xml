@@ -1,6 +1,59 @@
 <resources>
     <string name="app_name">Marvel Movies</string>
-    <string name="tittle_movie1">Movie 1</string>
+
+    <string name="tittle_movie1">Iron Man</string>
+    <string name="description_movie1">La película que inició el Universo Cinematográfico de Marvel (MCU) presenta a Tony Stark, un empresario multimillonario que construye un traje de alta tecnología para luchar contra el crimen.</string>
+
+    <string name="tittle_movie2">Los Vengadores</string>
+    <string name="description_movie2">Los superhéroes de Marvel, incluyendo a Iron Man, Capitán América, Thor, Hulk y Viuda Negra, se unen para enfrentar a Loki y sus aliados extraterrestres.</string>
+
+    <string name="tittle_movie3">Capitán América: El Soldado de Invierno</string>
+    <string name="description_movie3">El Capitán América y la Viuda Negra se unen para enfrentar a una conspiración en la que se ven envueltos S.H.I.E.L.D. y la organización HYDRA.</string>
+
+    <string name="tittle_movie4">Guardianes de la Galaxia</string>
+    <string name="description_movie4">Un grupo de inadaptados del espacio, incluyendo a Star-Lord, Gamora, Drax, Rocket y Groot, se unen para proteger la galaxia de Ronan el Acusador.</string>
+
+    <string name="tittle_movie5">Spider-Man: Homecoming</string>
+    <string name="description_movie5">El joven Peter Parker debe equilibrar su vida como estudiante de secundaria y su identidad secreta como Spider-Man mientras enfrenta a un nuevo villano llamado Vulture.</string>
+
+    <string name="tittle_movie6">Thor: Ragnarok</string>
+    <string name="description_movie6">Thor es encarcelado en el otro extremo del universo y debe luchar en una competencia de gladiadores contra su viejo amigo Hulk, mientras intenta detener el fin del mundo asgardiano.</string>
+
+    <string name="tittle_movie7">Pantera Negra</string>
+    <string name="description_movie7">TChalla, el rey de Wakanda, debe enfrentar una amenaza a su país y su legado como Pantera Negra, el protector de Wakanda.</string>
+
+    <string name="tittle_movie8">Avengers: Infinity War</string>
+    <string name="description_movie8">Los Vengadores y sus aliados deben unirse para enfrentar al poderoso Thanos, que busca las Gemas del Infinito para controlar el universo.</string>
+
+    <string name="tittle_movie9">Captain Marvel </string>
+    <string name="description_movie9">La piloto Carol Danvers adquiere poderes sobrehumanos y se une a la lucha contra una invasión alienígena liderada por los Skrulls.</string>
+
+    <string name="tittle_movie10">Spider-Man: Lejos de Casa</string>
+    <string name="description_movie10">Peter Parker se une a sus amigos en un viaje a Europa, pero es arrastrado a una nueva aventura cuando Nick Fury lo recluta para luchar contra los Elementales junto al misterioso héroe Mysterio.</string>
+
+    <string name="hero1">Iron Man</string>
+    <string name="hero2">Capitán América</string>
+    <string name="hero3">Spider-Man</string>
+    <string name="hero4">Black Panther</string>
+    <string name="hero5">Thor</string>
+
+    <string name="villain1">Loki</string>
+    <string name="villain2">Thanos</string>
+    <string name="villain3">El Mandarin</string>
+    <string name="villain4">Killmonger</string>
+    <string name="villain5">Vulture</string>
+
+   <!-- <string name="url_movie1">https://www.themoviedb.org/t/p/original/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg</string>
+    <string name="url_movie2">https://m.media-amazon.com/images/I/81SIVdnkUmL.jpg</string>
+    <string name="url_movie3">https://es.web.img3.acsta.net/pictures/14/01/31/16/12/220933.jpg</string>
+    <string name="url_movie4">https://pics.filmaffinity.com/Guardianes_de_la_galaxia-595487268-large.jpg</string>
+    <string name="url_movie5">https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/980px/public/media/image/2017/07/spider-man-homecoming_1.jpg?itok=ug6XMiJn</string>
+    <string name="url_movie6">https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_FMjpg_UX1000_.jpg</string>
+    <string name="url_movie7">https://pics.filmaffinity.com/Pantera_Negra-992613805-large.jpg</string>
+    <string name="url_movie8">https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg</string>
+    <string name="url_movie9">https://www.themoviedb.org/t/p/original/aYDRwraSc8SXgot5jabtspJTWZB.jpg</string>
+    <string name="url_movie10">https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spiderman-lejos-de-casa-poster-1558607439.jpg</string>
+-->
     <string name="text_toggleButton_off">Bad</string>
     <string name="text_toggleButton_on">Good</string>
     <string name="text_text_radioButton">Repetir</string>

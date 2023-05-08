@@ -8,7 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF313C</color>
-    <color name="background">#B2BEBF</color>
-    <color name="hero">#77A8E8</color>
-    <color name="villain">#523657</color>
+    <color name="background">#bbdefe</color>
+    <color name="background_poster">#A2A5A7</color>
+    <color name="hero">#42a5f5</color>
+    <color name="villain">#6a1b9a</color>
 </resources>
