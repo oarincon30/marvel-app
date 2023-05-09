@@ -10,6 +10,8 @@
     <color name="red">#FF313C</color>
     <color name="background">#bbdefe</color>
     <color name="background_poster">#A2A5A7</color>
-    <color name="hero">#42a5f5</color>
-    <color name="villain">#6a1b9a</color>
+    <color name="hero">#1e88e5</color>
+    <color name="hero_selected">#0d47a1</color>
+    <color name="villain">#f44336</color>
+    <color name="villain_selected">#b71c1c</color>
 </resources>
